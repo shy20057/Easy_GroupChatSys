@@ -1,8 +1,8 @@
 
 {
-  "name": "easychat-front",
+  "name": "noshy-chat-front",
   "version": "1.0.0",
-  "description": "EasyChat",
+  "description": "Noshy Chat",
   "main": "./out/main/index.js",
   "author": "example.com",
   "homepage": "https://www.electronjs.org",

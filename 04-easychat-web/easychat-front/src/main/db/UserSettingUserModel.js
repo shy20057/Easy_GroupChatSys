@@ -38,7 +38,7 @@ const addUserSetting = async (userId,email) => {
 
     // 初始化user_setting表
     const sysSetting = {  // userDir - C:/Users/s3324/ 拼完路径之后初始化表
-        localFileFolder: userDir + "\\.easychat\\fileStorage\\",
+        localFileFolder: userDir + "\\.noshy-chat\\fileStorage\\",
     }
     sql = "select * from user_setting where user_id = ?"
     const userInfo = await queryOne(sql,[userId])

@@ -3,7 +3,7 @@
     <el-form ref="formDataRef" label-width="80px" @submit.prevent></el-form>
     <el-form-item label="版本信息">
       <div class="version-info">
-        <div>EasyChat {{ config.version }}</div>
+        <div>Noshy Chat {{ config.version }}</div>
         <div>
           <el-button type="primary" @click="checkUpdate">检查更新</el-button>
         </div>

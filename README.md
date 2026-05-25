@@ -1,4 +1,4 @@
-# EasyChat - 简易即时通讯系统
+# Noshy Chat - 简易即时通讯系统
 
 [![Java](https://img.shields.io/badge/Java-17%2B-blue)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)](https://spring.io/projects/spring-boot)
