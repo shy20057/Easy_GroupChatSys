@@ -1,0 +1,79 @@
+# ========== Maven 构建输出 ==========
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ========== Maven 依赖 ==========
+# 本地仓库（如果使用嵌入式 Maven）
+.m2/
+
+# ========== IDE 和编辑器配置 ==========
+.idea/
+*.iws
+*.iml
+*.ipr
+.classpath
+.project
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ========== 日志文件 ==========
+*.log
+logs/
+*.log*
+
+# ========== 编译输出 ==========
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ========== 测试相关 ==========
+test-output/
+surefire-reports/
+
+# ========== 本地开发配置 ==========
+# 本地环境变量（包含敏感信息）
+.env
+.env.local
+# 本地配置文件
+application-local.properties
+application-dev.properties
+application-prod.properties
+# 但保留主配置文件
+!application.properties
+
+# ========== 数据库文件 ==========
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+
+# ========== 上传的文件（用户数据） ==========
+# 头像
+file/avatar/
+# 聊天文件
+file/*/
+# 应用文件
+app/
+
+# ========== 缓存文件 ==========
+*.cache
+.cache/
+
+# ========== JVM 相关 ==========
+hs_err_pid*
+replay_pid*
+
+# ========== 其他 ==========
+# 临时文件
+*.tmp
+*.temp

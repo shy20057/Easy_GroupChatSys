@@ -1,0 +1,112 @@
+# ========== 根目录通用忽略规则 ==========
+
+# ========== IDE 和编辑器配置 ==========
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ========== 日志文件 ==========
+*.log
+logs/
+*.log*
+
+# ========== 临时文件 ==========
+*.tmp
+*.temp
+.cache/
+.temp/
+
+# ========== 操作系统文件 ==========
+Thumbs.db
+Desktop.ini
+
+# ========== 子模块的忽略规则 ==========
+# 前端项目（04-easychat-web/easychat-front）
+04-easychat-web/easychat-front/node_modules/
+04-easychat-web/easychat-front/dist/
+04-easychat-web/easychat-front/out/
+04-easychat-web/easychat-front/build/
+04-easychat-web/easychat-front/release/
+04-easychat-web/easychat-front/.vscode/
+04-easychat-web/easychat-front/.idea/
+04-easychat-web/easychat-front/*.log
+04-easychat-web/easychat-front/coverage/
+04-easychat-web/easychat-front/.nyc_output/
+04-easychat-web/easychat-front/.cache/
+04-easychat-web/easychat-front/.temp/
+04-easychat-web/easychat-front/assets/avatar/
+04-easychat-web/easychat-front/assets/file/
+04-easychat-web/easychat-front/assets/temp/
+04-easychat-web/easychat-front/学习笔记/
+04-easychat-web/easychat-front/assets/ffmpeg.exe
+04-easychat-web/easychat-front/assets/ffprobe.exe
+
+# 后端项目（04-easychat-java）
+04-easychat-java/target/
+04-easychat-java/.idea/
+04-easychat-java/*.iws
+04-easychat-java/*.iml
+04-easychat-java/*.ipr
+04-easychat-java/.classpath
+04-easychat-java/.project
+04-easychat-java/.settings/
+04-easychat-java/*.log
+04-easychat-java/logs/
+04-easychat-java/test-output/
+04-easychat-java/surefire-reports/
+04-easychat-java/file/avatar/
+04-easychat-java/file/*/
+04-easychat-java/app/
+04-easychat-java/*.db
+04-easychat-java/*.sqlite
+04-easychat-java/*.sqlite3
+04-easychat-java/*.h2.db
+04-easychat-java/hs_err_pid*
+04-easychat-java/replay_pid*
+
+# ========== 全局忽略大型二进制文件 ==========
+*.exe
+*.dmg
+*.AppImage
+*.deb
+*.rpm
+*.snap
+*.pkg
+*.msi
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ========== 签名证书（敏感信息） ==========
+*.p12
+*.pfx
+*.cer
+*.cert
+*.key
+*.pem
+
+# ========== 环境变量文件（敏感信息） ==========
+.env
+.env.local
+.env.*.local
+
+# ========== 数据库文件 ==========
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+
+# ========== 个人笔记和文档 ==========
+学习笔记/
+*.md
+!README.md
+!**/README.md
