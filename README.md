@@ -12,7 +12,7 @@
 
 ## 项目简介
 
-EasyChat 是一个功能完整的即时通讯系统，采用前后端分离架构：
+Noshy Chat 是一个功能完整的即时通讯系统，采用前后端分离架构：
 
 - **后端**：Spring Boot + MyBatis + Netty WebSocket + Redis
 - **前端桌面端**：Vue3 + Element Plus + Electron
@@ -64,7 +64,7 @@ EasyChat 是一个功能完整的即时通讯系统，采用前后端分离架�
 
 ## 技术栈
 
-### 后端技术 (04-easychat-java)
+### 后端技术 (04-Noshy Chat-java)
 
 | 技术 | 版本 | 说明 |
 |------|------|------|
@@ -77,7 +77,7 @@ EasyChat 是一个功能完整的即时通讯系统，采用前后端分离架�
 | Maven | 3.8+ | 构建工具 |
 | Knife4j | 4.x | API 文档 |
 
-### 前端技术 (04-easychat-web)
+### 前端技术 (04-Noshy Chat-web)
 
 | 技术 | 版本 | 说明 |
 |------|------|------|
@@ -93,10 +93,10 @@ EasyChat 是一个功能完整的即时通讯系统，采用前后端分离架�
 ## 项目结构
 
 ```
-EasyChat/
-├── 04-easychat-java/          # Java 后端服务
+Noshy Chat/
+├── 04-Noshy Chat-java/          # Java 后端服务
 │   ├── src/main/java/         # Java 源代码
-│   │   └── com/easychat/      # 主包路径
+│   │   └── com/Noshy Chat/      # 主包路径
 │   │       ├── controller/    # 控制器层
 │   │       ├── service/       # 业务逻辑层
 │   │       ├── mappers/       # 数据访问层
@@ -105,11 +105,11 @@ EasyChat/
 │   │       └── utils/         # 工具类
 │   ├── src/main/resources/    # 配置文件
 │   │   ├── application.properties
-│   │   └── com/easychat/mappers/  # MyBatis XML
+│   │   └── com/Noshy Chat/mappers/  # MyBatis XML
 │   └── pom.xml                # Maven 配置
 │
-├── 04-easychat-web/           # 前端桌面应用
-│   └── easychat-front/
+├── 04-Noshy Chat-web/           # 前端桌面应用
+│   └── Noshy Chat-front/
 │       ├── src/
 │       │   ├── main/          # Electron 主进程
 │       │   │   ├── db/        # 本地数据库操作
@@ -152,10 +152,10 @@ cd simple-chat
 ### 2. 启动后端服务
 
 ```bash
-cd 04-easychat-java
+cd 04-Noshy Chat-java
 
 # 配置数据库（修改 application.properties）
-# spring.datasource.url=jdbc:mysql://localhost:3306/easychat
+# spring.datasource.url=jdbc:mysql://localhost:3306/Noshy Chat
 # spring.datasource.username=root
 # spring.datasource.password=your_password
 
@@ -172,7 +172,7 @@ mvn spring-boot:run
 ### 3. 启动前端应用
 
 ```bash
-cd 04-easychat-web/easychat-front
+cd 04-Noshy Chat-web/Noshy Chat-front
 
 # 安装依赖
 npm install
@@ -191,7 +191,7 @@ npm run build
 ### 后端开发
 
 1. **数据库初始化**
-   - 创建 MySQL 数据库 `easychat`
+   - 创建 MySQL 数据库 `Noshy Chat`
    - 运行项目自动创建表结构
 
 2. **Redis 配置**
@@ -210,7 +210,7 @@ npm run build
    - IPC 通信：主进程与渲染进程通过 IPC 交互
 
 2. **本地数据库**
-   - SQLite 存储在：`C:\Users\{用户名}\.easychat\`
+   - SQLite 存储在：`C:\Users\{用户名}\.Noshy Chat\`
    - 包含：会话列表、消息记录、用户设置
 
 3. **WebSocket 客户端**
@@ -224,7 +224,7 @@ npm run build
 ### 前端桌面应用打包
 
 ```bash
-cd 04-easychat-web/easychat-front
+cd 04-Noshy Chat-web/Noshy Chat-front
 
 # Windows 安装包
 npm run build:win
