@@ -11,12 +11,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.noshychat</groupId>
-    <artifactId>noshy-chat</artifactId>
+    <groupId>com.easychat</groupId>
+    <artifactId>easychat</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
-    <name>noshy-chat</name>
-    <description>Noshy Chat - 简易即时通讯系统</description>
+    <name>easychat</name>
+    <description>easychat</description>
 
     <properties>
         <java.version>1.8</java.version>

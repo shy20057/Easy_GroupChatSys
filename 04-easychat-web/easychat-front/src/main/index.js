@@ -20,7 +20,7 @@ let tray = null;
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    title: 'Noshy Chat',
+    title: 'EasyChat',
     icon: icon,
     width: login_width,
     height: login_height,
@@ -47,7 +47,7 @@ function createWindow() {
 
   mainWindow.on('ready-to-show', () => {
     mainWindow.show()
-    mainWindow.setTitle("Noshy Chat")
+    mainWindow.setTitle("EasyChat")
   })
 
   mainWindow.webContents.setWindowOpenHandler((details) => {

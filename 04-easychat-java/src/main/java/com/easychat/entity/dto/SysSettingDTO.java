@@ -19,7 +19,7 @@ public class SysSettingDTO implements Serializable {
     private Integer maxFileSize = 5;
     private String  robotUid = Constants.ROBOT_UID;
     private String  robotNickName = "小冰";
-    private String robotWelcome = "欢迎来到Noshy Chat";
+    private String robotWelcome = "欢迎来到EasyChat";
 
 
 }

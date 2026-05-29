@@ -6,7 +6,7 @@ import { add_tables,add_indexex,alter_tables } from './Tables';
 
 const userDir = os.homedir();
 console.log(userDir);
-const dbFolder = userDir + (NODE_ENV === 'development' ? '/.noshy-chattest/' : '/.noshy-chat/');
+const dbFolder = userDir + (NODE_ENV === 'development' ? '/.easychattest/' : '/.easychat/');
 console.log(dbFolder);
 if(!fs.existsSync(dbFolder)){
     fs.mkdirSync(dbFolder);
