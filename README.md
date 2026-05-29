@@ -4,8 +4,8 @@
 
 ![Java](https://img.shields.io/badge/Java-17%2B-blue)
 ![Netty](https://img.shields.io/badge/Netty-4.x-orange)
-![NIO](https://img.shields.io/badge/NIO-Non-blocking%20I/O-red)
-![WebSocket](https://img.shields.io/badge/WebSocket-Real-time-green)
+![NIO](https://img.shields.io/badge/NIO-Non--blocking_I_O-red)
+![WebSocket](https://img.shields.io/badge/WebSocket-Real--time-green)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F)
 ![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D)
 ![Electron](https://img.shields.io/badge/Electron-Latest-47848F)
